@@ -1,0 +1,18 @@
+source 'https://github.com/abuzeid-ibrahim/DevPods.git'
+platform :ios, '9.0'
+
+target 'DevPodsExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'DevExtensions', :path => '../'
+  pod 'DevNetwork', :path => '../'
+  target 'DevPodsExampleTests' do
+    inherit! :search_paths
+     
+  end
+
+  target 'DevPodsExampleUITests' do
+    # Pods for testing
+  end
+
+end

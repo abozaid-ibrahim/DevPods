@@ -1,0 +1,6 @@
+framework module DevExtensions {
+  umbrella header "DevExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

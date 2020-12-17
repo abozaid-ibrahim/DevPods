@@ -1,0 +1,16 @@
+PODS:
+  - DevExtensions (0.1.21)
+
+DEPENDENCIES:
+  - DevExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  DevExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DevExtensions: 806ffe001cecec32c45aa9bc62f493b7d5feaafb
+
+PODFILE CHECKSUM: a275aa7df9a52612c49993f4487ecba42345354a
+
+COCOAPODS: 1.9.3
