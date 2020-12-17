@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'DevExtensions'
-  s.version          = '0.1.01'
+  s.version          = '0.1.21'
   s.summary          = 'A short description of DevExtensions.'
   s.swift_version    = '5.0'
 
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'DevExtensions/DevExtensions/Classes/**/*'
+  s.source_files = 'DevExtensions/*.{swift,h,m}'
   
 
   
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'DevExtensions' => ['DevExtensions/Assets/*.png']
   # }
 
-  s.public_header_files = 'DevExtensions/**/*.{swift,h,m}'
+  # s.public_header_files = 'DevExtensions/*.swift'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
