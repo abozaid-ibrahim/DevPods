@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'DevExtensions'
-  s.version          = '0.1.0'
+  s.version          = '0.1.01'
   s.summary          = 'A short description of DevExtensions.'
   s.swift_version    = '5.0'
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'DevExtensions' => ['DevExtensions/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'DevExtensions/**/*.{swift,h,m}'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
