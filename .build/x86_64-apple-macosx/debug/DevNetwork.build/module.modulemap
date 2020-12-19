@@ -1,0 +1,4 @@
+module DevNetwork {
+    header "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/DevNetwork-Swift.h"
+    requires objc
+}
