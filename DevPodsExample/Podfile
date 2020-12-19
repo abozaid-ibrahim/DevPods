@@ -1,5 +1,5 @@
 source 'https://github.com/abuzeid-ibrahim/DevPods.git'
-platform :ios, '9.0'
+platform :ios, '11.0'
 
 target 'DevPodsExample' do
   # Comment the next line if you don't want to use dynamic frameworks

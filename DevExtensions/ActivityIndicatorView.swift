@@ -7,6 +7,7 @@
 
 import Foundation
 #if canImport(UIKit)
+import UIKit
 
 final public class ActivityIndicatorView: UIView {
     private let activityView: UIActivityIndicatorView

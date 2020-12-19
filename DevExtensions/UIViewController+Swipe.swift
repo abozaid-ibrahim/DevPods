@@ -8,6 +8,7 @@
 
 import Foundation
 #if canImport(UIKit)
+import UIKit
 
 public extension UIViewController {
     private var minimumVelocityToHide: CGFloat { 1500 }

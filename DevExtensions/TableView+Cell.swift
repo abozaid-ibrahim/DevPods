@@ -8,6 +8,7 @@
 
 import Foundation
 #if canImport(UIKit)
+import UIKit
 
 public extension UITableViewCell {
     static var identifier: String {
