@@ -5,11 +5,11 @@ import PackageDescription
 
 extension Target {
   static func devExtensions() -> Target {
-      return .target(name: "DevExtensions", dependencies: [], path: "./DevExtensions", exclude: ["README.md"])
+      return .target(name: "DevExtensions", dependencies: [], path: "./DevExtensions", exclude: ["README.md","DevPodsExample"])
   }
 
   static func devNetwork() -> Target{
-    return  .target(name: "DevNetwork", dependencies: [], path: "./DevNetwork", exclude: ["README.md"])
+    return  .target(name: "DevNetwork", dependencies: [], path: "./DevNetwork", exclude: ["README.md","DevPodsExample"])
   }
 }
 
