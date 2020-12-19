@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'DevNetwork'
-  s.version          = '0.0.01'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of Network.'
   s.swift_version    = '5.0'
 
@@ -13,8 +13,9 @@ Pod::Spec.new do |s|
   s.author           = { 'abuzeid-ibrahim' => 'abuzeid7@gmail.com' }
   s.source           = { :git => 'https://github.com/abuzeid-ibrahim/DevPods.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
   s.source_files = 'DevNetwork/*.{swift,h,m}'
   
+#  s.dependency 'DevExtensions'#, :path=> "../DevExtensions"
 
 end

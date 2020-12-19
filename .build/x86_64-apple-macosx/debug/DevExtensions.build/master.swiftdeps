@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "300f33482486bff99d6dc545027851ca"
+build_time: [1608414006, 717145000]
+inputs:
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/Extra.swift": !dirty [1608333414, 122300410]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/TableView+Cell.swift": !dirty [1608069369, 896047392]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIColor+DarkMode.swift": !dirty [1606695828, 169301966]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UITableView+Header.swift": !dirty [1608234466, 163295261]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView+Constrains.swift": !dirty [1608234459, 119280406]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView+Layer.swift": !dirty [1606685529, 323534161]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIViewController+Error.swift": !dirty [1606401232, 599075505]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIViewController+Swipe.swift": !dirty [1608234385, 11039784]

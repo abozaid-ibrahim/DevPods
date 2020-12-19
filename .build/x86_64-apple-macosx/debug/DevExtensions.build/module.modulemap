@@ -1,0 +1,4 @@
+module DevExtensions {
+    header "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/DevExtensions-Swift.h"
+    requires objc
+}

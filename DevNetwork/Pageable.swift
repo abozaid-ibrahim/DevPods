@@ -7,7 +7,7 @@
 //
 import Foundation
 
-final class Page {
+final public class Page {
     var currentPage = 1
     let maxPages = 22
     var countPerPage = 20

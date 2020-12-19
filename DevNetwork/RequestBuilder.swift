@@ -22,7 +22,7 @@ public enum HttpMethod: String {
     case get, post
 }
 
-extension RequestBuilder {
+public extension RequestBuilder {
     var baseURL: String { "https://api-v2.hearthis.at/" }
     var request: URLRequest? {
         guard let url = URL(string: baseURL + path) else {

@@ -8,11 +8,13 @@
 
 import Foundation
 
-enum NetworkError: LocalizedError {
+public enum NetworkError: LocalizedError {
     case badRequest
-    case connectionFailed
+    case noConnection
+    case dataIsNil
+    case apiFailure
     case failedToParseData
-    var errorDescription: String? {
+    public var errorDescription: String? {
         switch self {
         case .failedToParseData:
             return "Technical Difficults, we can't fetch the data"

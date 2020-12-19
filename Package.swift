@@ -2,6 +2,28 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
+//
+//extension Target {
+//  static func devExtensions() -> [Target] {
+//      return [.target(name: "DevExtensions", dependencies: [],path: "./DevExtensions", exclude: ["README.md"])]
+//  }
+//
+//  static func devNetwork() -> [Target] {
+//    return  [.target(name: "DevNetwork", dependencies: ["DevExtensions"],path: "./DevNetwork", exclude: ["README.md"])]
+//  }
+//
+//
+//}
+//
+//let package = Package(
+//  name: "DevExtensions",
+//  products: ([
+//      .library(name: "DevExtensions", targets: ["DevExtensions"]),
+//      .library(name: "DevNetwork", targets: ["DevNetwork"])] as [Product]),
+//  targets: ([Target.devExtensions(),Target.devNetwork()] as [[Target]]).flatMap { $0 },
+//  swiftLanguageVersions: [.v5]
+//)
+//
 
 let package = Package(
     name: "DevNetwork",
@@ -18,8 +40,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
+
         .target(
             name: "DevNetwork",
             dependencies: [],
