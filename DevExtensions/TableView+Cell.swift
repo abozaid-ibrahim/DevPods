@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UIKit
+#if canImport(UIKit)
 
 public extension UITableViewCell {
     static var identifier: String {
@@ -29,3 +29,4 @@ public extension UITableView {
         return cell
     }
 }
+#endif

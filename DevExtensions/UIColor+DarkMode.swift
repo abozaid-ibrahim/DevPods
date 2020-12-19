@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UIKit
+#if canImport(UIKit)
 
 public extension UIColor {
     static var whiteColor: UIColor {
@@ -30,3 +30,4 @@ public extension UIColor {
         }
     }
 }
+#endif

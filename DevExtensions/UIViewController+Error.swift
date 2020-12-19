@@ -7,7 +7,8 @@
 //
 
 import Foundation
-import UIKit
+#if canImport(UIKit)
+
 public extension UIViewController {
     func show(error: String) {
         let alert = UIAlertController(title: nil, message: error, preferredStyle: .alert)
@@ -15,3 +16,4 @@ public extension UIViewController {
         present(alert, animated: true, completion: nil)
     }
 }
+#endif

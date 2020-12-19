@@ -6,6 +6,7 @@
 
   },
   "swiftTargetMap" : {
+    "C.DevExtensions-debug.module" : "DevExtensions",
     "C.DevNetwork-debug.module" : "DevNetwork"
   },
   "testDiscoveryCommands" : {

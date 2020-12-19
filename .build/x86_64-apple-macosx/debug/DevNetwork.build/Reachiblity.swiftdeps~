@@ -1,0 +1,152 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReachabilityType"
+- "Reachability"
+provides-nominal:
+- "10DevNetwork16ReachabilityTypeP"
+- "10DevNetwork12ReachabilityC"
+provides-member:
+- ["10DevNetwork16ReachabilityTypeP", ""]
+- ["10DevNetwork12ReachabilityC", ""]
+provides-dynamic-lookup:
+- "hasConnectionPath"
+- "hasInternet"
+- "internetMonitor"
+- "internetQueue"
+- "shared"
+- "startInternetTracking"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "DispatchQueue"
+- "NWPathMonitor"
+- "Reachability"
+- "ReachabilityType"
+- "StringLiteralType"
+- !private "hasConnectionPath"
+- !private "internetMonitor"
+- !private "internetQueue"
+depends-member:
+- ["s7CVarArgP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["So18OS_dispatch_objectC", ""]
+- ["So18OS_dispatch_objectC", "init"]
+- ["So18OS_dispatch_objectC", "sync"]
+- ["So17OS_dispatch_queueC", "init"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- !private ["SQ", "satisfied"]
+- !private ["SQ", "status"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- ["SH", "init"]
+- !private ["SH", "satisfied"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", "activate"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- !private ["7Network6NWPathV", "status"]
+- ["7Network13NWPathMonitorC", "init"]
+- !private ["7Network13NWPathMonitorC", "pathUpdateHandler"]
+- !private ["7Network13NWPathMonitorC", "start"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- ["10DevNetwork12ReachabilityC", "Bool"]
+- ["10DevNetwork12ReachabilityC", "DispatchQueue"]
+- ["10DevNetwork12ReachabilityC", "NWPathMonitor"]
+- ["10DevNetwork12ReachabilityC", "Reachability"]
+- ["10DevNetwork12ReachabilityC", "deinit"]
+- !private ["10DevNetwork12ReachabilityC", "hasConnectionPath"]
+- ["10DevNetwork12ReachabilityC", "hasInternet"]
+- ["10DevNetwork12ReachabilityC", "init"]
+- ["10DevNetwork12ReachabilityC", "internetMonitor"]
+- ["10DevNetwork12ReachabilityC", "internetQueue"]
+- ["10DevNetwork12ReachabilityC", "shared"]
+- ["10DevNetwork12ReachabilityC", "startInternetTracking"]
+- ["10DevNetwork16ReachabilityTypeP", "Bool"]
+- ["10DevNetwork16ReachabilityTypeP", "DispatchQueue"]
+- ["10DevNetwork16ReachabilityTypeP", "NWPathMonitor"]
+- ["10DevNetwork16ReachabilityTypeP", "Reachability"]
+- ["10DevNetwork16ReachabilityTypeP", ""]
+- !private ["10DevNetwork16ReachabilityTypeP", "hasConnectionPath"]
+- ["10DevNetwork16ReachabilityTypeP", "hasInternet"]
+- ["10DevNetwork16ReachabilityTypeP", "init"]
+- !private ["10DevNetwork16ReachabilityTypeP", "internetMonitor"]
+- !private ["10DevNetwork16ReachabilityTypeP", "internetQueue"]
+- ["7Combine9SchedulerP", "init"]
+- !private ["7Network6NWPathV6StatusO", "satisfied"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7Network6NWPathV"
+- "7Network13NWPathMonitorC"
+- "So9OS_objectC"
+- "10DevNetwork12ReachabilityC"
+- "10DevNetwork16ReachabilityTypeP"
+- "7Combine9SchedulerP"
+- !private "7Network6NWPathV6StatusO"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/module.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "157b37a814caea45f38d5cae2788f2b7"

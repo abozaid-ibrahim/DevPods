@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -55,6 +55,7 @@
 		6C74E194258C00580065FB2D /* DevPodsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevPodsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C74E198258C00580065FB2D /* DevPodsExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevPodsExampleUITests.swift; sourceTree = "<group>"; };
 		6C74E19A258C00580065FB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CAB988A258EAEC40049226B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Package.swift; sourceTree = "<group>"; };
 		82CADE141AE46F051361714D /* Pods-DevPodsExample-DevPodsExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevPodsExample-DevPodsExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-DevPodsExample-DevPodsExampleUITests/Pods-DevPodsExample-DevPodsExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F1BB107948530ED3D429B13 /* Pods_DevPodsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevPodsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6839BD74CFD064018A6E0D /* Pods_DevPodsExample_DevPodsExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevPodsExample_DevPodsExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +129,7 @@
 			children = (
 				6C74E176258C00540065FB2D /* AppDelegate.swift */,
 				6C74E178258C00540065FB2D /* SceneDelegate.swift */,
+				6CAB988A258EAEC40049226B /* Package.swift */,
 				6C74E17A258C00540065FB2D /* ContentView.swift */,
 				6C74E17C258C00570065FB2D /* Assets.xcassets */,
 				6C74E181258C00570065FB2D /* LaunchScreen.storyboard */,
@@ -173,7 +175,6 @@
 				E4D2208E1FE2A443BB447C88 /* Pods-DevPodsExampleTests.debug.xcconfig */,
 				C5DE9987F8D7B9FEC212CE6D /* Pods-DevPodsExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

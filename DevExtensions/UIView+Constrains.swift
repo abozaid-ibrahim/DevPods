@@ -7,7 +7,8 @@
 //
 
 import Foundation
-import UIKit
+#if canImport(UIKit)
+
 public extension UIView {
     func setConstrainsEqualToParentEdges(top: Float = 0,
                                          bottom: Float = 0,
@@ -41,3 +42,4 @@ public extension UIView {
             bottomAnchor.constraint(equalTo: parent.bottomAnchor, constant: -CGFloat(bottom))])
     }
 }
+#endif

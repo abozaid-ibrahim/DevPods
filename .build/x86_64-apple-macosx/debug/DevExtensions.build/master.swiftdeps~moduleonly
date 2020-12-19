@@ -1,12 +1,14 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "300f33482486bff99d6dc545027851ca"
-build_time: [1608414006, 717145000]
+build_time: [1608417896, 985539000]
 inputs:
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/Extra.swift": !dirty [1608333414, 122300410]
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/TableView+Cell.swift": !dirty [1608069369, 896047392]
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIColor+DarkMode.swift": !dirty [1606695828, 169301966]
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/UITableView+Header.swift": !dirty [1608234466, 163295261]
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView+Constrains.swift": !dirty [1608234459, 119280406]
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView+Layer.swift": !dirty [1606685529, 323534161]
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIViewController+Error.swift": !dirty [1606401232, 599075505]
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIViewController+Swipe.swift": !dirty [1608234385, 11039784]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/ActivityIndicatorView.swift": [1608417801, 426479384]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/Extra.swift": [1608333414, 122300410]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/Logger.swift": [1608414532, 8634514]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/TableView+Cell.swift": [1608417801, 412077218]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIColor+DarkMode.swift": [1608417801, 399434596]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UITableView+Header.swift": [1608417801, 388132261]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView+Constrains.swift": [1608417801, 374907539]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView+Layer.swift": [1608417801, 351841886]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIViewController+Error.swift": [1608417801, 339341415]
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIViewController+Swipe.swift": [1608417801, 320963132]
