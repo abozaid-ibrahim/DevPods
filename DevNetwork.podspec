@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'DevNetwork'
-  s.version          = '0.0.3'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of Network.'
   s.swift_version    = '5.0'
 

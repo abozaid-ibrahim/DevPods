@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'DevExtensions'
-  s.version          = '0.1.21'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of DevExtensions.'
   s.swift_version    = '5.0'
 
