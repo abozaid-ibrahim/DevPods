@@ -6,6 +6,7 @@ target 'DevPodsExample' do
   use_frameworks!
   pod 'DevExtensions', :path => '../'
   pod 'DevNetwork', :path => '../'
+  pod 'UIComponents', :path => '../'
   target 'DevPodsExampleTests' do
     inherit! :search_paths
      

@@ -9,6 +9,8 @@
 import Foundation
 
 public protocol RequestBuilder {
+    var baseURL: String { get }
+
     var path: String { get }
 
     var method: HttpMethod { get }
@@ -23,7 +25,6 @@ public enum HttpMethod: String {
 }
 
 public extension RequestBuilder {
-    var baseURL: String { "https://api-v2.hearthis.at/" }
     var request: URLRequest? {
         guard let url = URL(string: baseURL + path) else {
             return nil
@@ -41,6 +42,7 @@ public extension RequestBuilder {
                                  cachePolicy: URLRequest.CachePolicy.reloadIgnoringCacheData,
                                  timeoutInterval: 30)
         request.httpMethod = method.rawValue
+        print("Network>>\(request)")
         return request
     }
 

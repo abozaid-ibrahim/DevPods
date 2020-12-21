@@ -8,26 +8,25 @@
 
 import Foundation
 #if canImport(UIKit)
-import UIKit
 
-public extension UITableViewCell {
-    static var identifier: String {
-        return String(describing: self)
-    }
-}
-
-public extension UITableView {
-    func register<T: UITableViewCell>(_: T.Type) {
-        let nib = UINib(nibName: T.identifier, bundle: Bundle(for: T.self))
-        register(nib, forCellReuseIdentifier: T.identifier)
-    }
-
-    func dequeue<T: UITableViewCell>(cell: T.Type, for indexPath: IndexPath) -> T {
-        let tableView = dequeueReusableCell(withIdentifier: T.identifier, for: indexPath)
-        guard let cell = tableView as? T else {
-            fatalError("Failed to cast cell to \(T.identifier)")
+    public extension UITableViewCell {
+        static var identifier: String {
+            return String(describing: self)
         }
-        return cell
     }
-}
+
+    public extension UITableView {
+        func register<T: UITableViewCell>(_: T.Type) {
+            let nib = UINib(nibName: T.identifier, bundle: Bundle(for: T.self))
+            register(nib, forCellReuseIdentifier: T.identifier)
+        }
+
+        func dequeue<T: UITableViewCell>(cell: T.Type, for indexPath: IndexPath) -> T {
+            let tableView = dequeueReusableCell(withIdentifier: T.identifier, for: indexPath)
+            guard let cell = tableView as? T else {
+                fatalError("Failed to cast cell to \(T.identifier)")
+            }
+            return cell
+        }
+    }
 #endif

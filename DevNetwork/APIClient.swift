@@ -19,7 +19,7 @@ public final class HTTPClient: ApiClient {
         json.keyDecodingStrategy = .convertFromSnakeCase
         return json
     }()
-
+    public init(){}
     public func getData<T: Codable>(of request: RequestBuilder, completion: @escaping (Result<T, NetworkError>) -> Void) {
         guard let request = request.request else {
             completion(.failure(NetworkError.badRequest))

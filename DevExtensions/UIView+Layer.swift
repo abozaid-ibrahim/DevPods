@@ -8,26 +8,25 @@
 
 import Foundation
 #if canImport(UIKit)
-import UIKit
 
-public extension UIView {
-    @IBInspectable var cornerRadius: CGFloat {
-        get {
-            return layer.cornerRadius
+    public extension UIView {
+        @IBInspectable var cornerRadius: CGFloat {
+            get {
+                return layer.cornerRadius
+            }
+            set {
+                layer.masksToBounds = true
+                layer.cornerRadius = abs(CGFloat(Int(newValue * 100)) / 100)
+            }
         }
-        set {
-            layer.masksToBounds = true
-            layer.cornerRadius = abs(CGFloat(Int(newValue * 100)) / 100)
+
+        @IBInspectable var borderWidth: CGFloat {
+            get {
+                return layer.borderWidth
+            }
+            set {
+                layer.borderWidth = newValue
+            }
         }
     }
-
-    @IBInspectable var borderWidth: CGFloat {
-        get {
-            return layer.borderWidth
-        }
-        set {
-            layer.borderWidth = newValue
-        }
-    }
-}
 #endif

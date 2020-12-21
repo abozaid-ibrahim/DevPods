@@ -8,13 +8,12 @@
 
 import Foundation
 #if canImport(UIKit)
-import UIKit
 
-public extension UIViewController {
-    func show(error: String) {
-        let alert = UIAlertController(title: nil, message: error, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        present(alert, animated: true, completion: nil)
+    public extension UIViewController {
+        func show(error: String) {
+            let alert = UIAlertController(title: nil, message: error, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+            present(alert, animated: true, completion: nil)
+        }
     }
-}
 #endif
