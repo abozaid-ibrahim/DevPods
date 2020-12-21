@@ -3,18 +3,17 @@
 Dont repeat your self every day.
 Feel free to copy pase what you need, If you need too much you could use it as a pod.
 <p align="left">
-  <img src="" title="EveryDayBlocks">
+  <img src="https://github.com/abuzeid-ibrahim/DevPods/blob/master/components.jpeg" width="90%" height="400" title="EveryDayBlocks">
 </p>
 </p>
  <p align="center">
 <img src="https://img.shields.io/github/workflow/status/abuzeid-ibrahim/MimiMusicPlayer/iOS%20starter%20workflow/master">
 <a href="https://developer.apple.com/swift/"><img src="https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat" alt="Swift"/></a>
 <img src="https://img.shields.io/badge/Platform-iOS%2011.0+-lightgrey.svg" alt="Platform: iOS">
-<img src="https://img.shields.io/badge/XCode-11.5%2B-lightgrey">
 <img src="https://img.shields.io/badge/Code%20Coverage-71%25-brightgreen">
- <img src="https://img.shields.io/badge/Swift-5.0-orange.svg">
- <img src="https://img.shields.io/badge/Xcode-11.4-blue.svg">
- <img src="https://img.shields.io/badge/License-MIT-red.svg">
+<img src="https://img.shields.io/badge/Swift-5.0-orange.svg">
+<img src="https://img.shields.io/badge/Xcode-11.4-blue.svg">
+<img src="https://img.shields.io/badge/License-MIT-red.svg">
 </p>
 
 EveryDayCodeBlocks is a collection of **over 20 native Swift extensions and component**, with handy methods, syntactic sugar, and performance improvements for wide range of primitive data types, UIKit and Cocoa classes –over 20 in 1– for iOS
@@ -106,7 +105,7 @@ EveryDayCodeBlocks is a library of **over 200 properties and methods**, designed
 Check Examples.playground from the project for some cool examples!
 
 ## Get involved
-
+More is coming soon...
 We want your feedback.
 Please refer to [contributing guidelines](https://github.com/EveryDayCodeBlocks/EveryDayCodeBlocks/tree/master/CONTRIBUTING.md) before participating.
 
