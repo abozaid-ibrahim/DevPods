@@ -83,9 +83,9 @@ let package = Package(
 <summary> Components and Extensions</summary>
 </br>
 <ul>
-<li><a href="https://github.com/abuzeid-ibrahim/DevPods/DevExtensions"><code>Foundation extensions</code></a></li>
-<li><a href="https://github.com/abuzeid-ibrahim/DevPods/DevNetwork"><code>Network Module</code></a></li>
-<li><a href="https://github.com/abuzeid-ibrahim/DevPods/UIComponents"><code>UI Component</code></a></li>
+<li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/DevExtensions"><code>Foundation extensions</code></a></li>
+<li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/DevNetwork"><code>Network Module</code></a></li>
+<li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/UIComponents"><code>UI Component</code></a></li>
 extensions</code></a></li>
 </ul>
 </details>
