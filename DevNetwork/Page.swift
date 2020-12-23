@@ -14,7 +14,6 @@ public final class Page {
     public var size = 20
     public var fetched = 0
     public var fetching: Bool = false
-    public let lock = NSLock()
     public func shouldLoadMore(for index: Int) -> Bool {
         return current <= maxPages && fetched <= (index + 1)
     }
