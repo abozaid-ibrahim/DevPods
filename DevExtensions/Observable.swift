@@ -13,7 +13,7 @@ public final class Observable<T> {
 
     private var newValue: T {
         didSet {
-            observers.forEach { key, event in queues[key]?.sync { event(self.newValue) }}
+            observers.forEach { key, event in queues[key]?.async { event(self.newValue) }}
         }
     }
 

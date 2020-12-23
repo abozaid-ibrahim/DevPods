@@ -9,17 +9,18 @@ import Foundation
 
 public protocol ApiClient {
     var jsonDecoder: JSONDecoder { get }
-    func getData<T: Codable>(of request: RequestBuilder, completion: @escaping (Result<T, NetworkError>) -> Void)
+    func getData<T: Codable>(of request: RequestBuilder,
+                             completion: @escaping (Result<T, NetworkError>) -> Void)
 }
 
 public final class HTTPClient: ApiClient {
     public let jsonDecoder: JSONDecoder = {
-        let json = JSONDecoder()
-//        json.dateDecodingStrategy = .iso8601
-        json.keyDecodingStrategy = .convertFromSnakeCase
-        return json
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .formatted(DateFormatter.defaultJsonFormatter)
+        return decoder
     }()
-    public init(){}
+
+    public init() {}
     public func getData<T: Codable>(of request: RequestBuilder, completion: @escaping (Result<T, NetworkError>) -> Void) {
         guard let request = request.request else {
             completion(.failure(NetworkError.badRequest))
@@ -50,6 +51,7 @@ public final class HTTPClient: ApiClient {
                 completion(.success(object))
             } catch {
                 log(error)
+                log(String(data: data, encoding: .utf8))
                 completion(.failure(.failedToParseData))
             }
         }
@@ -62,4 +64,20 @@ func log(_ value: Any?...) {
     #if DEBUG
         print("Network>> \(value)")
     #endif
+}
+
+public extension DateFormatter {
+    static var defaultJsonFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        return formatter
+    }
+}
+
+public extension Date {
+    func getFormattedDate(format: String) -> String {
+        let dateformat = DateFormatter()
+        dateformat.dateFormat = format
+        return dateformat.string(from: self)
+    }
 }
