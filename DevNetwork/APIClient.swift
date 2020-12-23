@@ -30,7 +30,7 @@ public final class HTTPClient: ApiClient {
             guard let self = self else {
                 return
             }
-            log(error)
+
             if let error = error {
                 log(error)
                 completion(.failure(.apiFailure))
