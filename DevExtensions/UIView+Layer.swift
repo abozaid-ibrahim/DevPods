@@ -28,5 +28,15 @@ import Foundation
                 layer.borderWidth = newValue
             }
         }
+
+        @IBInspectable var borderColor: UIColor? {
+            get {
+                guard let color = layer.borderColor else { return nil }
+                return UIColor(cgColor: color)
+            }
+            set {
+                layer.borderColor = newValue?.cgColor
+            }
+        }
     }
 #endif

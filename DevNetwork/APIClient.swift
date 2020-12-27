@@ -26,11 +26,12 @@ public final class HTTPClient: ApiClient {
             completion(.failure(NetworkError.badRequest))
             return
         }
+
         let task = URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
             guard let self = self else {
                 return
             }
-
+            log(request)
             if let error = error {
                 log(error)
                 completion(.failure(.apiFailure))
