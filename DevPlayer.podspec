@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.source_files = 'DevPlayer/*.{swift,h,m}'
   
-#  s.dependency 'DevExtensions'#, :path=> "../DevExtensions"
-
+ s.dependency 'RxSwift'
+ s.dependency 'RxCocoa'
+ # s.dependency 'DevExtensions', :path => './DevExtensions.podspec'
 end
