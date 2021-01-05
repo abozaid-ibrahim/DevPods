@@ -1,6 +1,6 @@
 //
 //  UIView+Constrains.swift
-//  MimiMusicPlayer
+//  UPlayer
 //
 //  Created by abuzeid on 24.11.20.
 //  Copyright © 2020 abuzeid. All rights reserved.
