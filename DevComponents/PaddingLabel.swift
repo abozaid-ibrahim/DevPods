@@ -1,9 +1,10 @@
 //
 //  PaddingLabel.swift
+//  DevComponents
 //
-//  Created by abuzeid on 22.12.20.
-//  Copyright © 2020 abuzeid. All rights reserved.
+//  Created by abuzeid on 05.01.21.
 //
+
 
 import Foundation
 import UIKit

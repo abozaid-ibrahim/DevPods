@@ -1,9 +1,8 @@
 //
 //  TabBar.swift
-//  Direct
+//  DevComponents
 //
-//  Created by abuzeid on 5/17/19.
-//  Copyright © 2019 abuzeid. All rights reserved.
+//  Created by abuzeid on 05.01.21.
 //
 
 import UIKit
