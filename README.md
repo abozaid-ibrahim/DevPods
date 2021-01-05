@@ -76,7 +76,7 @@ let package = Package(
 </br>
 <p>Add the <a href="https://github.com/abuzeid-ibrahim/DevPods">EveryDayCodeBlocks</a> folder to your Xcode project to use all extensions, or a specific extension.</p>
 </details>
-Goya Buzz is a twitter anylatics tool **Swift**/**Moduler**/**Test**/**MVVM**.
+## Files
 
 | Files                      | _                          | _                         |
 | -------------------------- | -------------------------- | -------------------------- |
