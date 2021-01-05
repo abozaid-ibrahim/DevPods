@@ -1,6 +1,6 @@
 //
 //  TagView.swift
-//  TagsUIView
+//  DevTag
 //
 //  Created by abuzeid on 5/18/19.
 //  Copyright © 2019 abuzeid. All rights reserved.

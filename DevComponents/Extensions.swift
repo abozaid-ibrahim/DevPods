@@ -1,6 +1,5 @@
 //
 //  Extensions.swift
-//  UIComponents
 //
 //  Created by abuzeid on 22.12.20.
 //

@@ -1,9 +1,9 @@
 //
 //  VideoController.swift
-//  Direct
+//  DevNetwork
 //
-//  Created by abuzeid on 7/5/19.
-//  Copyright © 2019 abuzeid. All rights reserved.
+//  Created by abuzeid on 08.12.20.
+//  Copyright © 2020 abuzeid. All rights reserved.
 //
 
 import AVFoundation

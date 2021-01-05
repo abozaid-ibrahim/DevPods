@@ -1,6 +1,6 @@
 //
 //  AudioPlayer.swift
-//  UPlayer
+//  DevNetwork
 //
 //  Created by abuzeid on 25.11.20.
 //  Copyright © 2020 abuzeid. All rights reserved.
@@ -12,10 +12,6 @@ import MobileCoreServices
 import RxRelay
 import RxSwift
 public typealias PlayerItem = (url: URL, duration: Double)
-//public struct PlayerItem{
-//    let url: URL
-//    let duration: Double
-//}
 public protocol AudioPlayerType {
     var state: BehaviorRelay<State> { get }
     var play: PublishRelay<PlayerItem> { get }

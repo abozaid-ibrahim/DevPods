@@ -1,6 +1,6 @@
 //
 //  DurationFromatter.swift
-//  UPlayer
+//  DevNetwork
 //
 //  Created by abuzeid on 08.12.20.
 //  Copyright © 2020 abuzeid. All rights reserved.

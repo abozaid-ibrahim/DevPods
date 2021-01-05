@@ -1,6 +1,5 @@
 //
 //  PaddingLabel.swift
-//  UIComponents
 //
 //  Created by abuzeid on 22.12.20.
 //  Copyright © 2020 abuzeid. All rights reserved.

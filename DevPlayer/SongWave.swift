@@ -1,3 +1,9 @@
+//  DevNetwork
+//
+//  Created by abuzeid on 08.12.20.
+//  Copyright © 2020 abuzeid. All rights reserved.
+//
+
 import UIKit.UIView
 
 public final class SongWave: UIView {
