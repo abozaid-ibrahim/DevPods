@@ -11,11 +11,11 @@ import Foundation
 import MobileCoreServices
 import RxRelay
 import RxSwift
-//public typealias PlayerItem = (url: URL, duration: Double)
-public struct PlayerItem{
-    let url: URL
-    let duration: Double
-}
+public typealias PlayerItem = (url: URL, duration: Double)
+//public struct PlayerItem{
+//    let url: URL
+//    let duration: Double
+//}
 public protocol AudioPlayerType {
     var state: BehaviorRelay<State> { get }
     var play: PublishRelay<PlayerItem> { get }
@@ -35,7 +35,7 @@ public final class AudioPlayer: NSObject, AudioPlayerType {
     public static let shared = AudioPlayer()
     override private init() {
         super.init()
-        play.observeOn(SerialDispatchQueueScheduler(qos: .default))
+        play.observe(on: SerialDispatchQueueScheduler(qos: .default))
             .bind(onNext: { [unowned self] in self.play(with: $0.url, duration: $0.duration) })
             .disposed(by: disposeBag)
     }

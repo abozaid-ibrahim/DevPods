@@ -8,15 +8,15 @@
 
 import AVFoundation
 import Foundation
-import RxSwift
 import RxCocoa
+import RxSwift
 
 public extension Reactive where Base: AVPlayer {
-    public var error: Observable<Error?> {
+    var error: Observable<Error?> {
         return observe(Error.self, #keyPath(AVPlayer.error))
     }
 
-   public func periodicTimeObserver(interval: CMTime) -> Observable<CMTime> {
+    func periodicTimeObserver(interval: CMTime) -> Observable<CMTime> {
         return Observable.create { observer in
             let timeObserver = self.base.addPeriodicTimeObserver(forInterval: interval, queue: nil) { time in
                 observer.onNext(time)

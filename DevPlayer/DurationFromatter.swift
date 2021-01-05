@@ -8,6 +8,7 @@
 
 import Foundation
 public struct DurationFromatter {
+    public init() {}
     public func display(duration: Double) -> String {
         let seconds = duration.truncatingRemainder(dividingBy: 60).rounded(.toNearestOrAwayFromZero)
         let minutes = (duration / 60).truncatingRemainder(dividingBy: 60).rounded(.down)
