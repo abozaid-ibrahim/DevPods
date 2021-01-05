@@ -1,6 +1,6 @@
 //
 //  APIClient.swift
-//  MimiMusicPlayer
+//  DevNetwork
 //
 //  Created by abuzeid on 24.11.20.
 //  Copyright © 2020 abuzeid. All rights reserved.

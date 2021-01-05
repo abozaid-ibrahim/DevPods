@@ -1,10 +1,11 @@
-source 'https://github.com/abuzeid-ibrahim/DevPods.git'
+#source 'https://github.com/abuzeid-ibrahim/DevPods.git'
 platform :ios, '11.0'
 
 target 'DevPodsExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   use_modular_headers!
+  #pod 'RxSwift'
   pod 'DevExtensions', :path => '../'
   pod 'DevNetwork', :path => '../'
   pod 'DevComponents', :path => '../'

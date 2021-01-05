@@ -1,26 +1,32 @@
 //
 //  VideoController.swift
-//  Direct
+//  DevNetwork
 //
-//  Created by abuzeid on 7/5/19.
-//  Copyright © 2019 abuzeid. All rights reserved.
+//  Created by abuzeid on 08.12.20.
+//  Copyright © 2020 abuzeid. All rights reserved.
 //
 
 import AVFoundation
 import AVKit
 
-class VideoController: UIViewController {
-    private var videoUrl: String
-    var player: AVPlayer
-    var autoPlay: Bool
-    override func loadView() {
+public final class VideoController: UIViewController {
+    private var videoUrl: URL
+    private(set) lazy var player: AVPlayer = AVPlayer(url: self.videoUrl)
+    private let playerView: AVPlayerViewController
+    private var autoPlay: Bool
+    override public func loadView() {
         view = UIView()
+        playerView.player = player
+        addChild(playerView)
+        view.addSubview(playerView.view)
+        playerView.view.frame = view.bounds
+        playerView.player = player
     }
 
-    init(url: String, autoPlay: Bool = true) {
-        self.videoUrl = url
+    public init(url: URL, autoPlay: Bool = true) {
+        videoUrl = url
         self.autoPlay = autoPlay
-        self.player = AVPlayer(url: URL(string: url)!)
+        playerView = AVPlayerViewController()
         super.init(nibName: nil, bundle: nil)
     }
 
@@ -28,34 +34,19 @@ class VideoController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if autoPlay {
-            guard let url = URL(string: videoUrl) else {
-                return
-            }
-            playVideo(url: url)
+        guard autoPlay else {
+            return
         }
+        playVideo(url: videoUrl)
     }
 
-    func playVideo(url: URL) {
-        let player = AVPlayer(url: url)
+    public func playVideo(url: URL) {
+        playerView.player?.play()
+    }
 
-        let vc = AVPlayerViewController()
-        vc.player = player
-    
-        addChild(vc)
-        view.addSubview(vc.view)
-        vc.view.frame = view.bounds
-
-        DispatchQueue.global().asyncAfter(deadline: .now() + 3) {
-            DispatchQueue.main.sync {
-                vc.player?.play()
-            }
-        }
+    public func pauseVideo(url: URL) {
+        playerView.player?.pause()
     }
 }
