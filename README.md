@@ -3,7 +3,7 @@
 Dont repeat your self every day.
 Feel free to copy pase what you need, If you need too much you could use it as a pod.
 <p align="left">
-  <img src="https://github.com/abuzeid-ibrahim/DevPods/blob/master/components.jpeg" width="90%" height="400" title="EveryDayBlocks">
+  <img src="https://github.com/abuzeid-ibrahim/DevPods/blob/master/docs/components.jpeg" width="90%" height="400" title="EveryDayBlocks">
 </p>
 </p>
  <p align="center">
@@ -76,6 +76,12 @@ let package = Package(
 </br>
 <p>Add the <a href="https://github.com/abuzeid-ibrahim/DevPods">EveryDayCodeBlocks</a> folder to your Xcode project to use all extensions, or a specific extension.</p>
 </details>
+Goya Buzz is a twitter anylatics tool **Swift**/**Moduler**/**Test**/**MVVM**.
+
+| Files                      | _                          | _                         |
+| -------------------------- | -------------------------- | -------------------------- |
+| ![](docs/c1.png)  | ![](docs/c2.png)   | _                          |
+
 
 ## List of All Components
 
