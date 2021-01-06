@@ -7,7 +7,7 @@ target 'DevPodsExample' do
   use_modular_headers!
   #pod 'RxSwift'
   pod 'DevExtensions', :path => '../'
-  pod 'DevNetwork', :path => '../'
+  pod 'DevNetwork/Rx', :path => '../'
   pod 'DevComponents', :path => '../'
   pod 'DevPlayer', :path => '../'
   pod 'DevTag', :path => '../'

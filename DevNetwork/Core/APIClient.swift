@@ -9,11 +9,11 @@ import Foundation
 
 public protocol ApiClient {
     var jsonDecoder: JSONDecoder { get }
-    func getData<T: Codable>(of request: RequestBuilder,
+    func getData<T: Decodable>(of request: RequestBuilder,
                              completion: @escaping (Result<T, NetworkError>) -> Void)
 }
 
-public final class HTTPClient: ApiClient {
+open class HTTPClient: ApiClient {
     public let jsonDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .formatted(DateFormatter.defaultJsonFormatter)
@@ -21,7 +21,7 @@ public final class HTTPClient: ApiClient {
     }()
 
     public init() {}
-    public func getData<T: Codable>(of request: RequestBuilder, completion: @escaping (Result<T, NetworkError>) -> Void) {
+    public func getData<T: Decodable>(of request: RequestBuilder, completion: @escaping (Result<T, NetworkError>) -> Void) {
         guard let request = request.request else {
             completion(.failure(NetworkError.badRequest))
             return

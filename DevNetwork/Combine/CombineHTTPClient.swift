@@ -25,10 +25,6 @@ public final class CombineClient: APIClient {
     public init() {}
 
     public func get<T: Decodable>(request: RequestBuilder) -> AnyPublisher<T, Error> {
-//        guard let request = request.request else {
-//            return Just(NetworkError.badRequest)
-//        }
-
         return URLSession.shared.dataTaskPublisher(for: request.request!)
             .map(\.data)
             .decode(type: T.self, decoder: JSONDecoder())
