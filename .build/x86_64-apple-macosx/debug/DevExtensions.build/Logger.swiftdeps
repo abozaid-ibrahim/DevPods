@@ -57,8 +57,6 @@ depends-member:
 - ["13DevExtensions13LoggingLevelsO", "info"]
 - ["13DevExtensions13LoggingLevelsO", "isEnabled"]
 - ["13DevExtensions13LoggingLevelsO", "value"]
-- ["So8NSCodingP", ""]
-- ["So8NSObjectP", ""]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
@@ -75,8 +73,6 @@ depends-nominal:
 - "SH"
 - !private "s6HasherV"
 - "13DevExtensions13LoggingLevelsO"
-- "So8NSCodingP"
-- "So8NSObjectP"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"

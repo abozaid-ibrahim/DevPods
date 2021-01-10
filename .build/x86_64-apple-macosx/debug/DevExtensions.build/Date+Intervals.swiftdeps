@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "-"
+provides-nominal:
+provides-member:
+- ["10Foundation4DateV", ""]
+- ["10Foundation4DateV", "-"]
+- ["10Foundation4DateV", "relativeDaysFromToday"]
+- ["10Foundation4DateV", "getElapsedInterval"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "-"
+- !private "=="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Calendar"
+- "Date"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "RelativeDateTimeFormatter"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TimeInterval"
+- !private "UnicodeScalarType"
+- !private "getElapsedInterval"
+depends-member:
+- !private ["s7CVarArgP", "dateTimeStyle"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "localizedString"]
+- !private ["s7CVarArgP", "unitsStyle"]
+- !private ["10Foundation8CalendarV", "current"]
+- !private ["10Foundation8CalendarV", "dateComponents"]
+- !private ["SL", "Calendar"]
+- !private ["SL", "Date"]
+- !private ["SL", "RelativeDateTimeFormatter"]
+- !private ["SL", "getElapsedInterval"]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSinceReferenceDate"]
+- !private ["10Foundation8CalendarV9ComponentO", "day"]
+- !private ["10Foundation8CalendarV9ComponentO", "hour"]
+- !private ["10Foundation8CalendarV9ComponentO", "minute"]
+- !private ["10Foundation8CalendarV9ComponentO", "month"]
+- !private ["10Foundation8CalendarV9ComponentO", "year"]
+- !private ["s28CustomDebugStringConvertibleP", "Calendar"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "RelativeDateTimeFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "dateComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "dateTimeStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "day"]
+- !private ["s28CustomDebugStringConvertibleP", "getElapsedInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "hour"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "minute"]
+- !private ["s28CustomDebugStringConvertibleP", "month"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s28CustomDebugStringConvertibleP", "unitsStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "year"]
+- !private ["s17CustomReflectableP", "Calendar"]
+- !private ["s17CustomReflectableP", "Date"]
+- !private ["s17CustomReflectableP", "RelativeDateTimeFormatter"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "dateComponents"]
+- !private ["s17CustomReflectableP", "day"]
+- !private ["s17CustomReflectableP", "getElapsedInterval"]
+- !private ["s17CustomReflectableP", "hour"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "minute"]
+- !private ["s17CustomReflectableP", "month"]
+- !private ["s17CustomReflectableP", "timeIntervalSinceReferenceDate"]
+- !private ["s17CustomReflectableP", "year"]
+- !private ["s23CustomStringConvertibleP", "Calendar"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "RelativeDateTimeFormatter"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "dateComponents"]
+- !private ["s23CustomStringConvertibleP", "dateTimeStyle"]
+- !private ["s23CustomStringConvertibleP", "day"]
+- !private ["s23CustomStringConvertibleP", "getElapsedInterval"]
+- !private ["s23CustomStringConvertibleP", "hour"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "localizedString"]
+- !private ["s23CustomStringConvertibleP", "minute"]
+- !private ["s23CustomStringConvertibleP", "month"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s23CustomStringConvertibleP", "unitsStyle"]
+- !private ["s23CustomStringConvertibleP", "year"]
+- ["10Foundation4DateV", "-"]
+- !private ["10Foundation4DateV", "Calendar"]
+- ["10Foundation4DateV", "Date"]
+- !private ["10Foundation4DateV", "RelativeDateTimeFormatter"]
+- ["10Foundation4DateV", "String"]
+- ["10Foundation4DateV", "TimeInterval"]
+- ["10Foundation4DateV", ""]
+- ["10Foundation4DateV", "getElapsedInterval"]
+- !private ["10Foundation4DateV", "init"]
+- ["10Foundation4DateV", "relativeDaysFromToday"]
+- !private ["10Foundation4DateV", "timeIntervalSinceReferenceDate"]
+- !private ["10Foundation14DateComponentsV", "day"]
+- !private ["10Foundation14DateComponentsV", "hour"]
+- !private ["10Foundation14DateComponentsV", "minute"]
+- !private ["10Foundation14DateComponentsV", "month"]
+- !private ["10Foundation14DateComponentsV", "year"]
+- !private ["So32NSRelativeDateTimeFormatterStyleV", "named"]
+- !private ["Se", "Calendar"]
+- !private ["Se", "Date"]
+- !private ["Se", "RelativeDateTimeFormatter"]
+- !private ["Se", "current"]
+- !private ["Se", "dateComponents"]
+- !private ["Se", "day"]
+- !private ["Se", "getElapsedInterval"]
+- !private ["Se", "hour"]
+- !private ["Se", "init"]
+- !private ["Se", "minute"]
+- !private ["Se", "month"]
+- !private ["Se", "timeIntervalSinceReferenceDate"]
+- !private ["Se", "year"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "Calendar"]
+- !private ["SE", "Date"]
+- !private ["SE", "RelativeDateTimeFormatter"]
+- !private ["SE", "current"]
+- !private ["SE", "dateComponents"]
+- !private ["SE", "day"]
+- !private ["SE", "getElapsedInterval"]
+- !private ["SE", "hour"]
+- !private ["SE", "init"]
+- !private ["SE", "minute"]
+- !private ["SE", "month"]
+- !private ["SE", "timeIntervalSinceReferenceDate"]
+- !private ["SE", "year"]
+- !private ["SQ", "Calendar"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "RelativeDateTimeFormatter"]
+- !private ["SQ", ""]
+- !private ["SQ", "abbreviated"]
+- !private ["SQ", "current"]
+- !private ["SQ", "dateComponents"]
+- !private ["SQ", "dateTimeStyle"]
+- !private ["SQ", "day"]
+- !private ["SQ", "getElapsedInterval"]
+- !private ["SQ", "hour"]
+- !private ["SQ", "init"]
+- !private ["SQ", "localizedString"]
+- !private ["SQ", "minute"]
+- !private ["SQ", "month"]
+- !private ["SQ", "named"]
+- !private ["SQ", "timeIntervalSinceReferenceDate"]
+- !private ["SQ", "unitsStyle"]
+- !private ["SQ", "year"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["So11NSFormatterC", ""]
+- !private ["So11NSFormatterC", "dateTimeStyle"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "localizedString"]
+- !private ["So11NSFormatterC", "localizedStringForDate"]
+- !private ["So11NSFormatterC", "localizedStringFromDateComponents"]
+- !private ["So11NSFormatterC", "localizedStringFromTimeInterval"]
+- !private ["So11NSFormatterC", "unitsStyle"]
+- !private ["SH", "Calendar"]
+- !private ["SH", "Date"]
+- !private ["SH", "RelativeDateTimeFormatter"]
+- !private ["SH", ""]
+- !private ["SH", "abbreviated"]
+- !private ["SH", "current"]
+- !private ["SH", "dateComponents"]
+- !private ["SH", "dateTimeStyle"]
+- !private ["SH", "day"]
+- !private ["SH", "getElapsedInterval"]
+- !private ["SH", "hour"]
+- !private ["SH", "init"]
+- !private ["SH", "localizedString"]
+- !private ["SH", "minute"]
+- !private ["SH", "month"]
+- !private ["SH", "named"]
+- !private ["SH", "timeIntervalSinceReferenceDate"]
+- !private ["SH", "unitsStyle"]
+- !private ["SH", "year"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dateTimeStyle"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "localizedString"]
+- !private ["So8NSCodingP", "localizedStringForDate"]
+- !private ["So8NSCodingP", "localizedStringFromDateComponents"]
+- !private ["So8NSCodingP", "localizedStringFromTimeInterval"]
+- !private ["So8NSCodingP", "unitsStyle"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "dateTimeStyle"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "localizedString"]
+- !private ["So9NSCopyingP", "localizedStringForDate"]
+- !private ["So9NSCopyingP", "localizedStringFromDateComponents"]
+- !private ["So9NSCopyingP", "localizedStringFromTimeInterval"]
+- !private ["So9NSCopyingP", "unitsStyle"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dateTimeStyle"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "localizedString"]
+- !private ["So8NSObjectC", "localizedStringForDate"]
+- !private ["So8NSObjectC", "localizedStringFromDateComponents"]
+- !private ["So8NSObjectC", "localizedStringFromTimeInterval"]
+- !private ["So8NSObjectC", "unitsStyle"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dateTimeStyle"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "localizedString"]
+- !private ["So8NSObjectP", "localizedStringForDate"]
+- !private ["So8NSObjectP", "localizedStringFromDateComponents"]
+- !private ["So8NSObjectP", "localizedStringFromTimeInterval"]
+- !private ["So8NSObjectP", "unitsStyle"]
+- !private ["SY", "abbreviated"]
+- !private ["SY", "named"]
+- !private ["10Foundation20ReferenceConvertibleP", "Calendar"]
+- !private ["10Foundation20ReferenceConvertibleP", "Date"]
+- !private ["10Foundation20ReferenceConvertibleP", "RelativeDateTimeFormatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "dateComponents"]
+- !private ["10Foundation20ReferenceConvertibleP", "day"]
+- !private ["10Foundation20ReferenceConvertibleP", "getElapsedInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "hour"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "minute"]
+- !private ["10Foundation20ReferenceConvertibleP", "month"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["10Foundation20ReferenceConvertibleP", "year"]
+- !private ["So27NSRelativeDateTimeFormatterC", "dateTimeStyle"]
+- !private ["So27NSRelativeDateTimeFormatterC", "init"]
+- !private ["So27NSRelativeDateTimeFormatterC", "localizedString"]
+- !private ["So27NSRelativeDateTimeFormatterC", "unitsStyle"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So37NSRelativeDateTimeFormatterUnitsStyleV", "abbreviated"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Calendar"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Date"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "RelativeDateTimeFormatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "getElapsedInterval"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSinceReferenceDate"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateTimeStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unitsStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateTimeStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "localizedString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unitsStyle"]
+- !private ["s21_ObjectiveCBridgeableP", "Calendar"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- !private ["s21_ObjectiveCBridgeableP", "RelativeDateTimeFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "dateComponents"]
+- !private ["s21_ObjectiveCBridgeableP", "day"]
+- !private ["s21_ObjectiveCBridgeableP", "getElapsedInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "hour"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "minute"]
+- !private ["s21_ObjectiveCBridgeableP", "month"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSinceReferenceDate"]
+- !private ["s21_ObjectiveCBridgeableP", "year"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- !private "10Foundation14DateComponentsV"
+- !private "So32NSRelativeDateTimeFormatterStyleV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "So11NSFormatterC"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So27NSRelativeDateTimeFormatterC"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So37NSRelativeDateTimeFormatterUnitsStyleV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/module.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bb0f496318e7621814fd5cf486194bab"

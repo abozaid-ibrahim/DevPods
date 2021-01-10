@@ -2,34 +2,52 @@
   "": {
     "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/master.swiftdeps"
   },
-  "/Users/abuzeid/workspace/DevPods/DevNetwork/APIClient.swift": {
-    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/APIClient.d",
-    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/APIClient.swift.o",
-    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/APIClient~partial.swiftmodule",
-    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/APIClient.swiftdeps"
+  "/Users/abuzeid/workspace/DevPods/DevNetwork/Combine/CombineHTTPClient.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Combine/CombineHTTPClient.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Combine/CombineHTTPClient.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Combine/CombineHTTPClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Combine/CombineHTTPClient.swiftdeps"
   },
-  "/Users/abuzeid/workspace/DevPods/DevNetwork/NetworkError.swift": {
-    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/NetworkError.d",
-    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/NetworkError.swift.o",
-    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/NetworkError~partial.swiftmodule",
-    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/NetworkError.swiftdeps"
+  "/Users/abuzeid/workspace/DevPods/DevNetwork/Core/APIClient.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/APIClient.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/APIClient.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/APIClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/APIClient.swiftdeps"
   },
-  "/Users/abuzeid/workspace/DevPods/DevNetwork/Pageable.swift": {
-    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Pageable.d",
-    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Pageable.swift.o",
-    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Pageable~partial.swiftmodule",
-    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Pageable.swiftdeps"
+  "/Users/abuzeid/workspace/DevPods/DevNetwork/Core/NetworkError.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/NetworkError.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/NetworkError.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/NetworkError~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/NetworkError.swiftdeps"
   },
-  "/Users/abuzeid/workspace/DevPods/DevNetwork/Reachiblity.swift": {
-    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Reachiblity.d",
-    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Reachiblity.swift.o",
-    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Reachiblity~partial.swiftmodule",
-    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Reachiblity.swiftdeps"
+  "/Users/abuzeid/workspace/DevPods/DevNetwork/Core/Page.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Page.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Page.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Page~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Page.swiftdeps"
   },
-  "/Users/abuzeid/workspace/DevPods/DevNetwork/RequestBuilder.swift": {
-    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/RequestBuilder.d",
-    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/RequestBuilder.swift.o",
-    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/RequestBuilder~partial.swiftmodule",
-    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/RequestBuilder.swiftdeps"
+  "/Users/abuzeid/workspace/DevPods/DevNetwork/Core/Pageable.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Pageable.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Pageable.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Pageable~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Pageable.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevNetwork/Core/Reachiblity.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Reachiblity.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Reachiblity.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Reachiblity~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/Reachiblity.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevNetwork/Core/RequestBuilder.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/RequestBuilder.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/RequestBuilder.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/RequestBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Core/RequestBuilder.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevNetwork/Rx/RxAPIClient.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Rx/RxAPIClient.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Rx/RxAPIClient.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Rx/RxAPIClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/Rx/RxAPIClient.swiftdeps"
   }
 }

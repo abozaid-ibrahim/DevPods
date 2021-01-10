@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Observable"
+provides-nominal:
+- "13DevExtensions10ObservableC"
+provides-member:
+- ["13DevExtensions10ObservableC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "DispatchQueue"
+- "FunctionArrowPrecedence"
+- "Observable"
+- "T"
+- "UUID"
+- "Void"
+- !private "newValue"
+- !private "observers"
+- "queues"
+- !private "value"
+depends-member:
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "forEach"]
+- ["Se", "init"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "subscript"]
+- !private ["SD", "forEach"]
+- ["SD", "init"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "forEach"]
+- ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "forEach"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "removeValue"]
+- !private ["SH", "subscript"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- ["13DevExtensions10ObservableC", "DispatchQueue"]
+- ["13DevExtensions10ObservableC", "T"]
+- ["13DevExtensions10ObservableC", "UUID"]
+- ["13DevExtensions10ObservableC", "Void"]
+- ["13DevExtensions10ObservableC", "accept"]
+- ["13DevExtensions10ObservableC", "deinit"]
+- ["13DevExtensions10ObservableC", "init"]
+- !private ["13DevExtensions10ObservableC", "newValue"]
+- !private ["13DevExtensions10ObservableC", "observers"]
+- !private ["13DevExtensions10ObservableC", "queues"]
+- ["13DevExtensions10ObservableC", "subscribe"]
+- ["13DevExtensions10ObservableC", "unsubscribe"]
+- ["13DevExtensions10ObservableC", "value"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- ["ST", ""]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "subscript"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "s7CVarArgP"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So9OS_objectC"
+- "13DevExtensions10ObservableC"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "10Foundation4UUIDV"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/module.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d7aac7146acc274302d01f581c7c8a22"

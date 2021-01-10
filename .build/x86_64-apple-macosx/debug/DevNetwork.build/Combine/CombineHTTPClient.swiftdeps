@@ -1,0 +1,135 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIClient"
+- "CombineClient"
+provides-nominal:
+- "10DevNetwork9APIClientP"
+- "10DevNetwork13CombineClientC"
+provides-member:
+- ["10DevNetwork9APIClientP", ""]
+- ["10DevNetwork13CombineClientC", ""]
+provides-dynamic-lookup:
+- "get"
+- "jsonDecoder"
+depends-top-level:
+- "APIClient"
+- "AnyPublisher"
+- "AssignmentPrecedence"
+- "CombineClient"
+- "Decodable"
+- "Error"
+- "JSONDecoder"
+- "RequestBuilder"
+- !private "URLSession"
+depends-member:
+- ["10DevNetwork9APIClientP", "AnyPublisher"]
+- ["10DevNetwork9APIClientP", "Decodable"]
+- ["10DevNetwork9APIClientP", "Error"]
+- ["10DevNetwork9APIClientP", "JSONDecoder"]
+- ["10DevNetwork9APIClientP", "RequestBuilder"]
+- !private ["10DevNetwork9APIClientP", "URLSession"]
+- ["10DevNetwork9APIClientP", ""]
+- ["10DevNetwork9APIClientP", "get"]
+- ["10DevNetwork9APIClientP", "jsonDecoder"]
+- !private ["s7CVarArgP", "dataTaskPublisher"]
+- !private ["s7CVarArgP", "shared"]
+- ["10DevNetwork13CombineClientC", "AnyPublisher"]
+- ["10DevNetwork13CombineClientC", "Decodable"]
+- ["10DevNetwork13CombineClientC", "Error"]
+- ["10DevNetwork13CombineClientC", "JSONDecoder"]
+- ["10DevNetwork13CombineClientC", "RequestBuilder"]
+- !private ["10DevNetwork13CombineClientC", "URLSession"]
+- ["10DevNetwork13CombineClientC", ""]
+- ["10DevNetwork13CombineClientC", "deinit"]
+- ["10DevNetwork13CombineClientC", "get"]
+- ["10DevNetwork13CombineClientC", "init"]
+- ["10DevNetwork13CombineClientC", "jsonDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTaskPublisher"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "dataTaskPublisher"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["So12NSURLSessionC10FoundationE17DataTaskPublisherV", "map"]
+- !private ["7Combine10PublishersO6DecodeV", "eraseToAnyPublisher"]
+- !private ["SQ", ""]
+- !private ["SQ", "dataTaskPublisher"]
+- !private ["SQ", "shared"]
+- !private ["SH", "dataTaskPublisher"]
+- !private ["SH", "shared"]
+- ["10Foundation11JSONDecoderC", "init"]
+- ["10Foundation11JSONDecoderC", "keyDecodingStrategy"]
+- ["10Foundation11JSONDecoderC19KeyDecodingStrategyO", "convertFromSnakeCase"]
+- !private ["7Combine10PublishersO3MapV", "decode"]
+- !private ["7Combine10PublishersO10MapKeyPathV", "decode"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dataTaskPublisher"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataTaskPublisher"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["7Combine9PublisherP", "decode"]
+- !private ["7Combine9PublisherP", "eraseToAnyPublisher"]
+- !private ["7Combine9PublisherP", "map"]
+- !private ["7Combine9PublisherP", "receive"]
+- !private ["10DevNetwork14RequestBuilderP", "request"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- ["7Combine15TopLevelDecoderP", "init"]
+- ["7Combine15TopLevelDecoderP", "keyDecodingStrategy"]
+- !private ["So12NSURLSessionC", "dataTaskPublisher"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTaskPublisher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTaskPublisher"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+depends-nominal:
+- "10DevNetwork9APIClientP"
+- !private "s7CVarArgP"
+- "10DevNetwork13CombineClientC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "So12NSURLSessionC10FoundationE17DataTaskPublisherV"
+- !private "7Combine10PublishersO6DecodeV"
+- !private "SQ"
+- !private "SH"
+- "10Foundation11JSONDecoderC"
+- "10Foundation11JSONDecoderC19KeyDecodingStrategyO"
+- !private "7Combine10PublishersO3MapV"
+- !private "7Combine10PublishersO10MapKeyPathV"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7Combine9PublisherP"
+- !private "10DevNetwork14RequestBuilderP"
+- "7Combine15TopLevelDecoderP"
+- !private "So12NSURLSessionC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/module.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "64d44fe46528974176c5f673831a5a93"
