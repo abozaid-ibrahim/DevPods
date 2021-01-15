@@ -20,11 +20,11 @@ import Foundation
         @IBInspectable var canAnimation: Bool = false
         @IBInspectable var animationTimeInterval: TimeInterval = 0.2
         @IBInspectable var isIndicator: Bool = false
-        @IBInspectable var imageLight: UIImage = UIImage(named: "star_on")!
-        @IBInspectable var imageDark: UIImage = UIImage(named: "star_off")!
+        @IBInspectable var imageLight = UIImage(named: "star_on")!
+        @IBInspectable var imageDark = UIImage(named: "star_off")!
         @IBInspectable var rating: CGFloat = 0 {
             didSet {
-                if 0 >= rating { rating = 0 }
+                if rating <= 0 { rating = 0 }
                 else if ratingMax <= rating { rating = ratingMax }
                 setNeedsLayout()
             }

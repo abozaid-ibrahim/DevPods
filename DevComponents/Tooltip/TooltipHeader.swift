@@ -93,11 +93,11 @@
         }
 
         @available(*, unavailable)
-        required init?(coder aDecoder: NSCoder) {
+        required init?(coder _: NSCoder) {
             fatalError("init(coder:) has not been implemented")
         }
 
-        @objc func didTapActionButton(sender: Any?) {
+        @objc func didTapActionButton(sender _: Any?) {
             action?()
         }
     }

@@ -141,7 +141,7 @@
     }
 
     extension ResizableTextView: UITextViewDelegate {
-        public func textViewDidChange(_ textView: UITextView) {
+        public func textViewDidChange(_: UITextView) {
             if updateCalculatedHeight() {
                 if maxHeight > 0 {
                     isScrollEnabled = sizeThatFits(frame.size).height > maxHeight

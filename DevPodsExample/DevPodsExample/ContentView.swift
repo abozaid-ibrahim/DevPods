@@ -5,8 +5,8 @@
 //  Created by abuzeid on 17.12.20.
 //
 
-import SwiftUI
 import Foundation
+import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")

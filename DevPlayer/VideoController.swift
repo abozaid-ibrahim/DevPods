@@ -11,7 +11,7 @@ import AVKit
 
 public final class VideoController: UIViewController {
     private var videoUrl: URL
-    private(set) lazy var player: AVPlayer = AVPlayer(url: self.videoUrl)
+    private(set) lazy var player = AVPlayer(url: self.videoUrl)
     private let playerView: AVPlayerViewController
     private var autoPlay: Bool
     override public func loadView() {
@@ -30,7 +30,8 @@ public final class VideoController: UIViewController {
         super.init(nibName: nil, bundle: nil)
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    @available(*, unavailable)
+    required init?(coder _: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -42,11 +43,11 @@ public final class VideoController: UIViewController {
         playVideo(url: videoUrl)
     }
 
-    public func playVideo(url: URL) {
+    public func playVideo(url _: URL) {
         playerView.player?.play()
     }
 
-    public func pauseVideo(url: URL) {
+    public func pauseVideo(url _: URL) {
         playerView.player?.pause()
     }
 }

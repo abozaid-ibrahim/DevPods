@@ -14,4 +14,3 @@ public extension DateFormatter {
         return formatter
     }
 }
-

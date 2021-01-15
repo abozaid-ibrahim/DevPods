@@ -28,7 +28,7 @@
         }
 
         @IBInspectable
-        public var font: UIFont = UIFont.systemFont(ofSize: 10)
+        public var font = UIFont.systemFont(ofSize: 10)
 
         @IBInspectable
         public var textColor: UIColor = .black
@@ -105,7 +105,7 @@
     }
 
     extension TagView: UICollectionViewDelegateFlowLayout {
-        public func collectionView(_ collectionView: UICollectionView, layout _: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        public func collectionView(_: UICollectionView, layout _: UICollectionViewLayout, referenceSizeForHeaderInSection _: Int) -> CGSize {
             return CGSize.zero
         }
 

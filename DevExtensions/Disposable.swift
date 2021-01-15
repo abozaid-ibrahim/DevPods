@@ -7,7 +7,7 @@
 
 import Foundation
 public struct Disposable: Hashable {
-    let id: UUID = UUID()
+    let id = UUID()
 }
 
 public extension Disposable {
