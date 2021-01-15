@@ -35,7 +35,6 @@
   "swiftTargetMap" : {
     "C.DevComponents-debug.module" : "DevComponents",
     "C.DevExtensions-debug.module" : "DevExtensions",
-    "C.DevPlayer-debug.module" : "DevPlayer",
     "C.DevTag-debug.module" : "DevTag"
   },
   "testDiscoveryCommands" : {
