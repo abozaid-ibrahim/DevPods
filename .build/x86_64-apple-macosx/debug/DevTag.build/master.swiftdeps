@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "cbfd502268e3ef95b52f88aadcf1745b"
+build_time: [1610315744, 356986000]
+inputs:
+  "/Users/abuzeid/workspace/DevPods/DevTag/LeftAlignedCollectionViewFlowLayout.swift": !dirty [1610315698, 986282441]
+  "/Users/abuzeid/workspace/DevPods/DevTag/TagCollectionCell.swift": !dirty [1610315698, 618023970]
+  "/Users/abuzeid/workspace/DevPods/DevTag/TagView.swift": !dirty [1610315698, 757124873]
+  "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevTag.build/DerivedSources/resource_bundle_accessor.swift": [1610315450, 2299891]

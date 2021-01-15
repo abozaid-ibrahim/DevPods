@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/master.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/AVPlayer+Rx.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AVPlayer+Rx.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AVPlayer+Rx.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AVPlayer+Rx~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AVPlayer+Rx.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/AudioPlayer.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AudioPlayer.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AudioPlayer.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AudioPlayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AudioPlayer.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/AudioPlayerState.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AudioPlayerState.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AudioPlayerState.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AudioPlayerState~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/AudioPlayerState.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/DurationFromatter.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/DurationFromatter.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/DurationFromatter.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/DurationFromatter~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/DurationFromatter.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/SongPlusesGenerator.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/SongPlusesGenerator.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/SongPlusesGenerator.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/SongPlusesGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/SongPlusesGenerator.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/SongWave.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/SongWave.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/SongWave.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/SongWave~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/SongWave.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/VideoController.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/VideoController.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/VideoController.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/VideoController~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevPlayer.build/VideoController.swiftdeps"
+  }
+}

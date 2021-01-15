@@ -1,4 +1,4 @@
-# EveryDayCodeBlocks
+# DevPods
 
 Dont repeat your self every day.
 Feel free to copy pase what you need, If you need too much you could use it as a pod.
@@ -16,7 +16,7 @@ Feel free to copy pase what you need, If you need too much you could use it as a
 <img src="https://img.shields.io/badge/License-MIT-red.svg">
 </p>
 
-EveryDayCodeBlocks is a collection of **over 20 native Swift extensions and component**, with handy methods, syntactic sugar, and performance improvements for wide range of primitive data types, UIKit and Cocoa classes –over 20 in 1– for iOS
+DevPods is a collection of **over 20 native Swift extensions and component**, with handy methods, syntactic sugar, and performance improvements for wide range of primitive data types, UIKit and Cocoa classes –over 20 in 1– for iOS
 
 ## Requirements
 
@@ -28,7 +28,7 @@ EveryDayCodeBlocks is a collection of **over 20 native Swift extensions and comp
 <details>
 <summary>CocoaPods</summary>
 </br>
-<p>To integrate EveryDayCodeBlocks into your Xcode project using <a href="http://cocoapods.org">CocoaPods</a>, specify it in your <code>Podfile</code>:</p>
+<p>To integrate DevPods into your Xcode project using <a href="http://cocoapods.org">CocoaPods</a>, specify it in your <code>Podfile</code>:</p>
 
 <h4>- Integrate All extensions and components (recommended):</h4>
 <pre><code class="ruby language-ruby">pod 'DevPods', :git=>URL</code></pre>
@@ -36,15 +36,15 @@ EveryDayCodeBlocks is a collection of **over 20 native Swift extensions and comp
 <h4>- Integrate Network Module only:</h4>
 <pre><code class="ruby language-ruby">pod 'DevPods/DevNetwork', :git=>URL</code></pre>
 
-<h4>- Integrate UIComponents only:</h4>
-<pre><code class="ruby language-ruby">pod 'DevPods/UIComponents', :git=>URL</code></pre>
+<h4>- Integrate DevComponents only:</h4>
+<pre><code class="ruby language-ruby">pod 'DevPods/DevComponents', :git=>URL</code></pre>
 
 </details>
 
 <details>
 <summary>Swift Package Manager</summary>
 </br>
-<p>You can use <a href="https://swift.org/package-manager">The Swift Package Manager</a> to install <code>EveryDayCodeBlocks</code> by adding the proper description to your <code>Package.swift</code> file:</p>
+<p>You can use <a href="https://swift.org/package-manager">The Swift Package Manager</a> to install <code>DevPods</code> by adding the proper description to your <code>Package.swift</code> file:</p>
 
 <pre><code class="swift language-swift">import PackageDescription
 
@@ -57,7 +57,7 @@ let package = Package(
 )
 </code></pre>
 
-<p>Next, add <code>EveryDayCodeBlocks</code> to your targets dependencies like so:</p>
+<p>Next, add <code>DevPods</code> to your targets dependencies like so:</p>
 <pre><code class="swift language-swift">.target(
     name: "YOUR_TARGET_NAME",
     dependencies: [
@@ -74,7 +74,7 @@ let package = Package(
 <details>
 <summary>Manually</summary>
 </br>
-<p>Add the <a href="https://github.com/abuzeid-ibrahim/DevPods">EveryDayCodeBlocks</a> folder to your Xcode project to use all extensions, or a specific extension.</p>
+<p>Add the <a href="https://github.com/abuzeid-ibrahim/DevPods">DevPods</a> folder to your Xcode project to use all extensions, or a specific extension.</p>
 </details>
 ## Files
 
@@ -91,21 +91,21 @@ let package = Package(
 <ul>
 <li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/DevExtensions"><code>Dev Extensions</code></a></li>
 <li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/DevNetwork"><code>Dev Network</code></a></li>
-<li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/UIComponents"><code>Dev Component</code></a></li>
-<li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/UIComponents"><code>Dev Player</code></a></li>
- <li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/UIComponents"><code>Dev Tag</code></a></li>
+<li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/DevComponents"><code>Dev Component</code></a></li>
+<li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/DevComponents"><code>Dev Player</code></a></li>
+ <li><a href="https://github.com/abuzeid-ibrahim/DevPods/tree/master/DevComponents"><code>Dev Tag</code></a></li>
 </ul>
 </details>
 
 
 ## How cool is this?
 
-EveryDayCodeBlocks is a library of **over 200 properties and methods**, designed to extend Swift's functionality and productivity, staying faithful to the original Swift API design guidelines.
+DevPods is a library of **over 200 properties and methods**, designed to extend Swift's functionality and productivity, staying faithful to the original Swift API design guidelines.
 
 Check Examples.playground from the project for some cool examples!
 
 ## Get involved
 More is coming soon...
 We want your feedback.
-Please refer to [contributing guidelines](https://github.com/EveryDayCodeBlocks/EveryDayCodeBlocks/tree/master/CONTRIBUTING.md) before participating.
+Please refer to [contributing guidelines](https://github.com/DevPods/DevPods/tree/master/CONTRIBUTING.md) before participating.
 

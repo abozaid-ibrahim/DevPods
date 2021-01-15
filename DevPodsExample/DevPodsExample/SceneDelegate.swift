@@ -5,7 +5,7 @@
 //  Created by abuzeid on 17.12.20.
 //
 
-import UIKit
+#if canImport(UIKit)
 import SwiftUI
 
 final class SceneDelegate: UIResponder, UIWindowSceneDelegate {

@@ -1,0 +1,420 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ApiClient"
+- "HTTPClient"
+- "log"
+provides-nominal:
+- "10DevNetwork9ApiClientP"
+- "10DevNetwork10HTTPClientC"
+provides-member:
+- ["10DevNetwork9ApiClientP", ""]
+- ["10DevNetwork10HTTPClientC", ""]
+- ["So15NSDateFormatterC", ""]
+- ["10Foundation4DateV", ""]
+- ["So15NSDateFormatterC", "defaultJsonFormatter"]
+- ["10Foundation4DateV", "getFormattedDate"]
+provides-dynamic-lookup:
+- "defaultJsonFormatter"
+- "getData"
+- "jsonDecoder"
+depends-top-level:
+- "..."
+- "ApiClient"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "Date"
+- "DateFormatter"
+- "Decodable"
+- "FloatLiteralType"
+- "HTTPClient"
+- "HTTPURLResponse"
+- "IntegerLiteralType"
+- "JSONDecoder"
+- "NetworkError"
+- "RequestBuilder"
+- "Result"
+- "String"
+- "StringLiteralType"
+- !private "URLSession"
+- "Void"
+- "log"
+- !private "print"
+depends-member:
+- ["10DevNetwork9ApiClientP", "DateFormatter"]
+- ["10DevNetwork9ApiClientP", "Decodable"]
+- ["10DevNetwork9ApiClientP", "JSONDecoder"]
+- ["10DevNetwork9ApiClientP", "NetworkError"]
+- ["10DevNetwork9ApiClientP", "RequestBuilder"]
+- ["10DevNetwork9ApiClientP", "Result"]
+- !private ["10DevNetwork9ApiClientP", "String"]
+- !private ["10DevNetwork9ApiClientP", "URLSession"]
+- ["10DevNetwork9ApiClientP", "Void"]
+- ["10DevNetwork9ApiClientP", ""]
+- ["10DevNetwork9ApiClientP", "getData"]
+- ["10DevNetwork9ApiClientP", "jsonDecoder"]
+- !private ["10DevNetwork9ApiClientP", "log"]
+- !private ["SK", ""]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "dateFormat"]
+- ["s7CVarArgP", "defaultJsonFormatter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "string"]
+- !private ["SN", "contains"]
+- !private ["Sl", ""]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["SL", "DateFormatter"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- ["s28CustomDebugStringConvertibleP", "defaultJsonFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s17CustomReflectableP", "DateFormatter"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- ["s23CustomStringConvertibleP", "defaultJsonFormatter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation4DateV", "DateFormatter"]
+- ["10Foundation4DateV", "String"]
+- ["10Foundation4DateV", ""]
+- ["10Foundation4DateV", "getFormattedDate"]
+- ["10Foundation11JSONDecoderC20DateDecodingStrategyO", "formatted"]
+- ["So15NSDateFormatterC", "DateFormatter"]
+- ["So15NSDateFormatterC", ""]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- ["So15NSDateFormatterC", "defaultJsonFormatter"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "DateFormatter"]
+- !private ["Se", "contains"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "DateFormatter"]
+- !private ["SE", "contains"]
+- !private ["SE", "init"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "DateFormatter"]
+- ["SQ", ""]
+- !private ["SQ", "apiFailure"]
+- !private ["SQ", "badRequest"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "dataIsNil"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "dateFormat"]
+- ["SQ", "defaultJsonFormatter"]
+- !private ["SQ", "failedToParseData"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "init"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "string"]
+- !private ["SQ", "success"]
+- !private ["SQ", "utf8"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "apiFailure"]
+- !private ["s5ErrorP", "badRequest"]
+- !private ["s5ErrorP", "dataIsNil"]
+- !private ["s5ErrorP", "failedToParseData"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["So11NSFormatterC", "DateFormatter"]
+- ["So11NSFormatterC", ""]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "dateFormatFromTemplate"]
+- ["So11NSFormatterC", "defaultJsonFormatter"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "stringFromDate"]
+- ["10DevNetwork10HTTPClientC", "DateFormatter"]
+- ["10DevNetwork10HTTPClientC", "Decodable"]
+- !private ["10DevNetwork10HTTPClientC", "HTTPURLResponse"]
+- ["10DevNetwork10HTTPClientC", "JSONDecoder"]
+- ["10DevNetwork10HTTPClientC", "NetworkError"]
+- ["10DevNetwork10HTTPClientC", "RequestBuilder"]
+- ["10DevNetwork10HTTPClientC", "Result"]
+- !private ["10DevNetwork10HTTPClientC", "String"]
+- !private ["10DevNetwork10HTTPClientC", "URLSession"]
+- ["10DevNetwork10HTTPClientC", "Void"]
+- ["10DevNetwork10HTTPClientC", ""]
+- ["10DevNetwork10HTTPClientC", "deinit"]
+- ["10DevNetwork10HTTPClientC", "getData"]
+- ["10DevNetwork10HTTPClientC", "init"]
+- ["10DevNetwork10HTTPClientC", "jsonDecoder"]
+- !private ["10DevNetwork10HTTPClientC", "log"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "DateFormatter"]
+- !private ["SH", ""]
+- !private ["SH", "apiFailure"]
+- !private ["SH", "badRequest"]
+- !private ["SH", "contains"]
+- !private ["SH", "dataIsNil"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "dateFormat"]
+- ["SH", "defaultJsonFormatter"]
+- !private ["SH", "failedToParseData"]
+- !private ["SH", "failure"]
+- !private ["SH", "init"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "string"]
+- !private ["SH", "success"]
+- !private ["SH", "utf8"]
+- ["10Foundation11JSONDecoderC", "dateDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation14LocalizedErrorP", "apiFailure"]
+- !private ["10Foundation14LocalizedErrorP", "badRequest"]
+- !private ["10Foundation14LocalizedErrorP", "dataIsNil"]
+- !private ["10Foundation14LocalizedErrorP", "failedToParseData"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "DateFormatter"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "dateFormatFromTemplate"]
+- ["So8NSCodingP", "defaultJsonFormatter"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "stringFromDate"]
+- ["So9NSCopyingP", "DateFormatter"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "dateFormatFromTemplate"]
+- ["So9NSCopyingP", "defaultJsonFormatter"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "stringFromDate"]
+- ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "dataTaskWithRequest"]
+- !private ["So8NSObjectC", "dataTaskWithURL"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "dateFormatFromTemplate"]
+- ["So8NSObjectC", "defaultJsonFormatter"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringForObjectValue"]
+- !private ["So8NSObjectC", "stringFromDate"]
+- ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "dataTaskWithRequest"]
+- !private ["So8NSObjectP", "dataTaskWithURL"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "dateFormatFromTemplate"]
+- ["So8NSObjectP", "defaultJsonFormatter"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringForObjectValue"]
+- !private ["So8NSObjectP", "stringFromDate"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- ["10DevNetwork0B5ErrorO", ""]
+- !private ["10DevNetwork0B5ErrorO", "apiFailure"]
+- !private ["10DevNetwork0B5ErrorO", "badRequest"]
+- !private ["10DevNetwork0B5ErrorO", "dataIsNil"]
+- !private ["10DevNetwork0B5ErrorO", "failedToParseData"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sk", "contains"]
+- !private ["SX", "contains"]
+- !private ["Sm", "init"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "DateFormatter"]
+- !private ["10DevNetwork14RequestBuilderP", "request"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["7Combine15TopLevelDecoderP", "dateDecodingStrategy"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- ["7Combine15TopLevelDecoderP", "init"]
+- ["So13NSURLResponseC", ""]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- ["So16NSURLSessionTaskC", ""]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "DateFormatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "defaultJsonFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DateFormatter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "defaultJsonFormatter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "DateFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "10DevNetwork9ApiClientP"
+- !private "SK"
+- "s7CVarArgP"
+- !private "SN"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "10Foundation11JSONDecoderC20DateDecodingStrategyO"
+- "So15NSDateFormatterC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So11NSFormatterC"
+- "10DevNetwork10HTTPClientC"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- "10Foundation11JSONDecoderC"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "10DevNetwork0B5ErrorO"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "SX"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10DevNetwork14RequestBuilderP"
+- !private "s6ResultO"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "7Combine15TopLevelDecoderP"
+- "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- "So16NSURLSessionTaskC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevNetwork.build/module.modulemap"
+- "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1072e4b001ebc6b307eb1b4193c6f066"

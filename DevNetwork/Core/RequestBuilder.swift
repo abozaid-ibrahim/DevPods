@@ -9,7 +9,7 @@
 import Foundation
 
 public protocol RequestBuilder {
-    var baseURL: String { get }
+    static var baseURL: String { get }
 
     var path: String { get }
 
@@ -26,7 +26,7 @@ public enum HttpMethod: String {
 
 public extension RequestBuilder {
     var request: URLRequest? {
-        guard let url = URL(string: baseURL + path) else {
+        guard let url = URL(string: Self.baseURL + path) else {
             return nil
         }
         var items = [URLQueryItem]()
@@ -42,11 +42,11 @@ public extension RequestBuilder {
                                  cachePolicy: URLRequest.CachePolicy.reloadIgnoringCacheData,
                                  timeoutInterval: 30)
         request.httpMethod = method.rawValue
-        print("Network>>\(request)")
+        request.allHTTPHeaderFields = headers
         return request
     }
 
     var headers: [String: String]? {
-        return ["Content-Type": "application/x-www-form-urlencoded"]
+        return ["Content-Type": "application/json"]
     }
 }

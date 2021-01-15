@@ -8,15 +8,14 @@
 import Foundation
 
 public protocol ApiClient {
-    var jsonDecoder: JSONDecoder { get }
     func getData<T: Decodable>(of request: RequestBuilder,
-                             completion: @escaping (Result<T, NetworkError>) -> Void)
+                               completion: @escaping (Result<T, NetworkError>) -> Void)
+    func parse<T: Decodable>(data: Data) throws -> T
 }
 
 open class HTTPClient: ApiClient {
-    public let jsonDecoder: JSONDecoder = {
+    let jsonDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .formatted(DateFormatter.defaultJsonFormatter)
         return decoder
     }()
 
@@ -48,8 +47,7 @@ open class HTTPClient: ApiClient {
                 return
             }
             do {
-                let object = try self.jsonDecoder.decode(T.self, from: data)
-                completion(.success(object))
+                completion(.success(try self.parse(data: data)))
             } catch {
                 log(error)
                 log(String(data: data, encoding: .utf8))
@@ -59,26 +57,14 @@ open class HTTPClient: ApiClient {
 
         task.resume()
     }
+
+    public func parse<T: Decodable>(data: Data) throws -> T {
+        try jsonDecoder.decode(T.self, from: data)
+    }
 }
 
 func log(_ value: Any?...) {
     #if DEBUG
         print("Network>> \(value)")
     #endif
-}
-
-public extension DateFormatter {
-    static var defaultJsonFormatter: DateFormatter {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
-        return formatter
-    }
-}
-
-public extension Date {
-    func getFormattedDate(format: String) -> String {
-        let dateformat = DateFormatter()
-        dateformat.dateFormat = format
-        return dateformat.string(from: self)
-    }
 }

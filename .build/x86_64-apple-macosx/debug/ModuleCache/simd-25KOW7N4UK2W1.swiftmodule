@@ -1,0 +1,16 @@
+---
+path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/simd.swiftmodule/x86_64-apple-macos.swiftmodule'
+dependencies:
+  - mtime:           1606741492000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/simd.swiftmodule/x86_64-apple-macos.swiftmodule'
+    size:            668536
+  - mtime:           1606726603000000000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1606726606000000000
+    path:            'usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface'
+    size:            127259
+    sdk_relative:    true
+version:         1
+...

@@ -1,0 +1,4 @@
+module DevComponents {
+    header "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/DevComponents-Swift.h"
+    requires objc
+}

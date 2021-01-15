@@ -1,0 +1,4 @@
+module DevTag {
+    header "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevTag.build/DevTag-Swift.h"
+    requires objc
+}

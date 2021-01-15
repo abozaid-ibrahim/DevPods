@@ -1,0 +1,95 @@
+{
+  "": {
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/master.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/ContentSizeTableView.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/ContentSizeTableView.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/ContentSizeTableView.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/ContentSizeTableView~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/ContentSizeTableView.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/MessageTextView.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/MessageTextView.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/MessageTextView.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/MessageTextView~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/MessageTextView.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/NibView.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/NibView.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/NibView.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/NibView~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/NibView.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/PaddingLabel.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/PaddingLabel.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/PaddingLabel.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/PaddingLabel~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/PaddingLabel.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/RatingBar.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/RatingBar.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/RatingBar.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/RatingBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/RatingBar.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/SnackBar/SnackBarPresenter.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarPresenter.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarPresenter.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarPresenter~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarPresenter.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/SnackBar/SnackBarView.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarView.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarView.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarView~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarView.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/SnackBar/SnackBarViewModel.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarViewModel.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarViewModel.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/SnackBar/SnackBarViewModel.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/TabBar.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TabBar.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TabBar.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TabBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TabBar.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/TextAreas/ResizableTextView.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TextAreas/ResizableTextView.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TextAreas/ResizableTextView.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TextAreas/ResizableTextView~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TextAreas/ResizableTextView.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/TextAreas/TextArea.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TextAreas/TextArea.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TextAreas/TextArea.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TextAreas/TextArea~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/TextAreas/TextArea.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/Tooltip/TooltipConfigurationProtocol.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/Tooltip/TooltipConfigurationProtocol.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/Tooltip/TooltipConfigurationProtocol.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/Tooltip/TooltipConfigurationProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/Tooltip/TooltipConfigurationProtocol.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/Tooltip/TooltipHeader.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/Tooltip/TooltipHeader.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/Tooltip/TooltipHeader.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/Tooltip/TooltipHeader~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/Tooltip/TooltipHeader.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevComponents/UIView+Constrains.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/UIView+Constrains.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/UIView+Constrains.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/UIView+Constrains~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/UIView+Constrains.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/resource_bundle_accessor.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/resource_bundle_accessor.swiftdeps"
+  }
+}

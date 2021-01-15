@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "204761d5055a461d790a5f01473b38ba"
+build_time: [1610740934, 629529000]
+inputs:
+  "/Users/abuzeid/workspace/DevPods/DevComponents/ContentSizeTableView.swift": [1610740133, 932012632]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/MessageTextView.swift": [1610740133, 917103189]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/NibView.swift": [1610740133, 902611800]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/PaddingLabel.swift": [1610740133, 944937724]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/RatingBar.swift": [1610740133, 861721561]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/SnackBar/SnackBarPresenter.swift": [1610740217, 76803987]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/SnackBar/SnackBarView.swift": [1610740217, 59301136]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/SnackBar/SnackBarViewModel.swift": [1610740217, 30075363]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/TabBar.swift": [1610740133, 888661911]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/TextAreas/ResizableTextView.swift": [1610740217, 16559822]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/TextAreas/TextArea.swift": [1610740216, 995583571]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/Tooltip/TooltipConfigurationProtocol.swift": [1610740216, 958053019]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/Tooltip/TooltipHeader.swift": [1610740216, 972655919]
+  "/Users/abuzeid/workspace/DevPods/DevComponents/UIView+Constrains.swift": [1609880212, 947591350]
+  "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevComponents.build/DerivedSources/resource_bundle_accessor.swift": [1610315450, 3034656]

@@ -4,7 +4,7 @@
 //  Copyright © 2020 abuzeid. All rights reserved.
 //
 
-import UIKit.UIView
+#if canImport(UIKit).UIView
 
 public final class SongWave: UIView {
     public var isActive = true

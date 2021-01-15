@@ -20,6 +20,12 @@
     "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Date+Intervals~partial.swiftmodule",
     "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Date+Intervals.swiftdeps"
   },
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/Disposable.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Disposable.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Disposable.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Disposable~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Disposable.swiftdeps"
+  },
   "/Users/abuzeid/workspace/DevPods/DevExtensions/Logger.swift": {
     "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Logger.d",
     "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Logger.swift.o",
@@ -31,6 +37,12 @@
     "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Observable.swift.o",
     "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Observable~partial.swiftmodule",
     "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/Observable.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/String+Index.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/String+Index.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/String+Index.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/String+Index~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/String+Index.swiftdeps"
   },
   "/Users/abuzeid/workspace/DevPods/DevExtensions/TableView+Cell.swift": {
     "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/TableView+Cell.d",
@@ -56,11 +68,11 @@
     "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UITableView+Header~partial.swiftmodule",
     "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UITableView+Header.swiftdeps"
   },
-  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView + Any.swift": {
-    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView + Any.d",
-    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView + Any.swift.o",
-    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView + Any~partial.swiftmodule",
-    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView + Any.swiftdeps"
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView + Shadow.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView + Shadow.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView + Shadow.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView + Shadow~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView + Shadow.swiftdeps"
   },
   "/Users/abuzeid/workspace/DevPods/DevExtensions/UIView+Constrains.swift": {
     "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIView+Constrains.d",
@@ -79,6 +91,12 @@
     "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIViewController+Error.swift.o",
     "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIViewController+Error~partial.swiftmodule",
     "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIViewController+Error.swiftdeps"
+  },
+  "/Users/abuzeid/workspace/DevPods/DevExtensions/UIViewController+Nib.swift": {
+    "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIViewController+Nib.d",
+    "object": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIViewController+Nib.swift.o",
+    "swiftmodule": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIViewController+Nib~partial.swiftmodule",
+    "swift-dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIViewController+Nib.swiftdeps"
   },
   "/Users/abuzeid/workspace/DevPods/DevExtensions/UIViewController+Swipe.swift": {
     "dependencies": "/Users/abuzeid/workspace/DevPods/.build/x86_64-apple-macosx/debug/DevExtensions.build/UIViewController+Swipe.d",

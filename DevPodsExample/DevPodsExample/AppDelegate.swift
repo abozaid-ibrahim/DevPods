@@ -6,7 +6,7 @@
 //
 
 import DevExtensions
-import UIKit
+#if canImport(UIKit)
 
 @main
 final class AppDelegate: UIResponder, UIApplicationDelegate {

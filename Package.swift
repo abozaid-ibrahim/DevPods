@@ -11,48 +11,28 @@ extension Target {
   static func devNetwork() -> Target{
     return  .target(name: "DevNetwork", dependencies: [], path: "./DevNetwork", exclude: ["README.md","DevPodsExample"])
   }
+    static func devPlayer() -> Target{
+      return  .target(name: "DevPlayer", dependencies: [], path: "./DevPlayer", exclude: ["README.md","DevPodsExample"])
+    }
+    
+    static func devTag() -> Target{
+      return  .target(name: "DevTag", dependencies: [], path: "./DevTag", exclude: ["README.md","DevPodsExample"])
+    }
+    static func devComponents() -> Target{
+      return  .target(name: "DevComponents", dependencies: [], path: "./DevComponents", exclude: ["README.md","DevPodsExample"])
+    }
 }
 
 let package = Package(
   name: "DevExtensions",
   platforms: [.iOS(.v11)],
+    
   products: ([
       .library(name: "DevExtensions", targets: ["DevExtensions"]),
-      .library(name: "DevNetwork", targets: ["DevNetwork"])]),
+      .library(name: "DevTag", targets: ["DevTag"]),
+      .library(name: "DevComponents", targets: ["DevComponents"])
+      ]),
   
-  targets: ([Target.devExtensions(), Target.devNetwork()]),
+    targets: ([Target.devExtensions(),  .devTag(),.devComponents()]),
   swiftLanguageVersions: [.v5]
 )
-//
-//
-//let package = Package(
-//    name: "DevNetwork",
-//    platforms: [.iOS(.v11)],
-//
-//    products: [
-//        // Products define the executables and libraries a package produces, and make them visible to other packages.
-//        .library(
-//            name: "DevNetwork",
-//            targets: ["DevNetwork"]),
-//    ],
-//    dependencies: [
-//        // Dependencies declare other packages that this package depends on.
-//        // .package(url: /* package url */, from: "1.0.0"),
-//    ],
-//    targets: [
-//
-//        .target(
-//            name: "DevNetwork",
-//            dependencies: [],
-//            path: "./DevNetwork",
-//            exclude: ["Info.plist"]),
-//
-////        .testTarget(
-////            name: "DevNetworkTests",
-////            dependencies: ["DevDetwork"],
-////            path: "./DevNetwork"),
-//    ],
-//
-//    swiftLanguageVersions: [.v5]
-//
-//)

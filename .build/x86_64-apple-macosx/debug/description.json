@@ -3,11 +3,40 @@
 
   ],
   "copyCommands" : {
-
+    "\/Users\/abuzeid\/workspace\/DevPods\/.build\/x86_64-apple-macosx\/debug\/DevExtensions_DevComponents.bundle\/TextArea.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/abuzeid\/workspace\/DevPods\/DevComponents\/TextAreas\/TextArea.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/abuzeid\/workspace\/DevPods\/.build\/x86_64-apple-macosx\/debug\/DevExtensions_DevComponents.bundle\/TextArea.xib"
+        }
+      ]
+    },
+    "\/Users\/abuzeid\/workspace\/DevPods\/.build\/x86_64-apple-macosx\/debug\/DevExtensions_DevTag.bundle\/TagCollectionCell.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/abuzeid\/workspace\/DevPods\/DevTag\/TagCollectionCell.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/abuzeid\/workspace\/DevPods\/.build\/x86_64-apple-macosx\/debug\/DevExtensions_DevTag.bundle\/TagCollectionCell.xib"
+        }
+      ]
+    }
   },
   "swiftTargetMap" : {
+    "C.DevComponents-debug.module" : "DevComponents",
     "C.DevExtensions-debug.module" : "DevExtensions",
-    "C.DevNetwork-debug.module" : "DevNetwork"
+    "C.DevPlayer-debug.module" : "DevPlayer",
+    "C.DevTag-debug.module" : "DevTag"
   },
   "testDiscoveryCommands" : {
 

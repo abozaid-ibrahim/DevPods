@@ -16,10 +16,10 @@ public enum NetworkError: LocalizedError {
     case failedToParseData
     public var errorDescription: String? {
         switch self {
-        case .failedToParseData:
-            return "Technical Difficults, we can't fetch the data"
-        default:
+        case .noConnection:
             return "Check your connectivity, and try again."
+        default:
+            return "\(self)"
         }
     }
 }

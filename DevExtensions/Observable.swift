@@ -7,10 +7,9 @@
 
 import Foundation
 
-public final class Observable<T> {
-    private var observers = [UUID: (T) -> Void]()
-    private var queues = [UUID: DispatchQueue]()
-
+public final class Observable<T>: DisposableTracker {
+    private var observers = [Disposable: (T) -> Void]()
+    private var queues = [Disposable: DispatchQueue]()
     private var newValue: T {
         didSet {
             observers.forEach { key, event in queues[key]?.async { event(self.newValue) }}
@@ -26,20 +25,30 @@ public final class Observable<T> {
     }
 
     @discardableResult
-    public func subscribe(on queue: DispatchQueue = .main, _ observer: @escaping ((T) -> Void)) -> UUID {
-        let id = UUID()
+    public func subscribe(on queue: DispatchQueue = .main, _ observer: @escaping ((T) -> Void)) -> Disposable {
+        let id = KeysGenerator.shared.newKey
         observers[id] = observer
         queues[id] = queue
         observer(value)
         return id
     }
 
-    public func unsubscribe(id: UUID) {
-        observers.removeValue(forKey: id)
-        queues.removeValue(forKey: id)
+    public func unsubscribe(_ ids: Disposable...) {
+        ids.forEach {
+            observers.removeValue(forKey: $0)
+            queues.removeValue(forKey: $0)
+        }
     }
 
     public func accept(_ newValue: T) {
         self.newValue = newValue
+    }
+
+    func removeDisposedKeys() {
+        observers.keys.forEach {
+            if KeysGenerator.shared.observers[$0] == nil {
+                unsubscribe($0)
+            }
+        }
     }
 }

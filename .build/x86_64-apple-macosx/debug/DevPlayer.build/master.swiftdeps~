@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "cde8ee59b6f2a45940b586e54ca29795"
+build_time: [1610742296, 203829000]
+inputs:
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/AVPlayer+Rx.swift": !dirty [1609879996, 454576308]
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/AudioPlayer.swift": !dirty [1609879996, 454281438]
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/AudioPlayerState.swift": !dirty [1609879996, 454459502]
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/DurationFromatter.swift": !dirty [1609879996, 454947730]
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/SongPlusesGenerator.swift": !dirty [1609879996, 455164511]
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/SongWave.swift": !dirty [1610739907, 334569402]
+  "/Users/abuzeid/workspace/DevPods/DevPlayer/VideoController.swift": !dirty [1609879996, 455723461]
