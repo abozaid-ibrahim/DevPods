@@ -40,5 +40,13 @@ import Foundation
                 topAnchor.constraint(equalTo: parent.topAnchor, constant: CGFloat(top)),
                 bottomAnchor.constraint(equalTo: parent.bottomAnchor, constant: -CGFloat(bottom))])
         }
+
+        func setViewAtBottom(of view: UIView, with margin: CGFloat = 0) {
+            translatesAutoresizingMaskIntoConstraints = false
+            view.addConstraints([
+                leadingAnchor.constraint(equalTo: view.leadingAnchor),
+                trailingAnchor.constraint(equalTo: view.trailingAnchor),
+                bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: margin)])
+        }
     }
 #endif
